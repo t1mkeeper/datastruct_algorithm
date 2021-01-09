@@ -20,7 +20,10 @@ int main(int argc, const char * argv[]) {
     root->right->left = new Node(6);
     root->right->right = new Node(7);
     
-    Node *res = connect(root);
+    //迭代
+//    connect(root);
+    //递归
+    connectRecursion(root);
     
     return 0;
 }

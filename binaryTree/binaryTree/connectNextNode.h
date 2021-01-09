@@ -12,7 +12,9 @@
 #include "BinaryTree.h"
 
 // 连接完全二叉树的next指针
-Node *connect(Node *root);
 
+Node *connect(Node *root);//迭代法
+
+Node *connectRecursion(Node *root);//递归法
 
 #endif /* connectNextNode_H */
