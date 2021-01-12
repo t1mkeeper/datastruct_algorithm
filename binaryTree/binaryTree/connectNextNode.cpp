@@ -10,14 +10,14 @@
 
 using namespace std;
 
-Node *connect(Node *root) {
+TreeNode *connect(TreeNode *root) {
     if(!root || root->left) return root;
-    queue<Node *> q;
+    queue<TreeNode *> q;
     q.push(root->left);
     q.push(root->right);
     while (!q.empty()) {
-        Node *first = NULL;
-        Node *second = NULL;
+        TreeNode *first = NULL;
+        TreeNode *second = NULL;
         __SIZE_TYPE__ size = q.size();
         for (int i = 0; i < size; i++) {
             first = q.front();
@@ -43,7 +43,7 @@ Node *connect(Node *root) {
 
 
 
-void connectTwoNode(Node *node1, Node *node2) {
+void connectTwoNode(TreeNode *node1, TreeNode *node2) {
     if (!node1 || !node2) return;
 
     node1->next = node2;
@@ -53,7 +53,7 @@ void connectTwoNode(Node *node1, Node *node2) {
     connectTwoNode(node1->right, node2->left);
 }
 
-Node *connectRecursion(Node *root) {
+TreeNode *connectRecursion(TreeNode *root) {
     if (!root) return NULL;
     connectTwoNode(root->left, root->right);
     return root;

@@ -13,8 +13,8 @@
 
 // 连接完全二叉树的next指针
 
-Node *connect(Node *root);//迭代法
+TreeNode *connect(TreeNode *root);//迭代法
 
-Node *connectRecursion(Node *root);//递归法
+TreeNode *connectRecursion(TreeNode *root);//递归法
 
 #endif /* connectNextNode_H */

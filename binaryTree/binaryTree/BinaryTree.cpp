@@ -7,10 +7,10 @@
 
 #include "BinaryTree.h"
 
-void addLeftNode(Node *n) {
+void addLeftNode(TreeNode *n) {
     
 }
 
-void addRightNode(Node *n) {
+void addRightNode(TreeNode *n) {
     
 }

@@ -10,15 +10,15 @@
 
 #include <stdio.h>
 
-typedef struct Node {
+typedef struct TreeNode {
     int val;
-    Node *left;
-    Node *right;
-    Node *next;
-    Node(int val) : val(val), left(NULL), right(NULL), next(NULL) {};
-}Node;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode *next;
+    TreeNode(int val) : val(val), left(NULL), right(NULL), next(NULL) {};
+}TreeNode;
 
-void addLeftNode(Node *n);
-void addRightNode(Node *n);
+void addLeftNode(TreeNode *n);
+void addRightNode(TreeNode *n);
 
 #endif /* BinaryTree_H */
