@@ -10,6 +10,7 @@
 		FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0325A9F85A00264C1A /* main.cpp */; };
 		FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */; };
 		FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */; };
+		FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		FF6B6D0F25AA1E0600264C1A /* connectNextNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectNextNode.h; sourceTree = "<group>"; };
 		FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectNextNode.cpp; sourceTree = "<group>"; };
+		FFA23ACF25AD9DCB00F1B45D /* binaryTree2List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binaryTree2List.h; sourceTree = "<group>"; };
+		FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryTree2List.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */,
 				FF6B6D0F25AA1E0600264C1A /* connectNextNode.h */,
 				FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */,
+				FFA23ACF25AD9DCB00F1B45D /* binaryTree2List.h */,
+				FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */,
 			);
 			path = binaryTree;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */,
 				FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */,
 				FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */,
+				FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
