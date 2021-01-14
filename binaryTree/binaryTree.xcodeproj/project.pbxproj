@@ -10,6 +10,7 @@
 		FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0325A9F85A00264C1A /* main.cpp */; };
 		FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */; };
 		FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */; };
+		FF7F6A9725AFF28C00527216 /* buildBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7F6A9625AFF28C00527216 /* buildBinaryTree.cpp */; };
 		FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */; };
 		FFA23AD525ADA7B500F1B45D /* BuildMaxBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFA23AD425ADA7B500F1B45D /* BuildMaxBinaryTree.cpp */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
 		FF6B6D0F25AA1E0600264C1A /* connectNextNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectNextNode.h; sourceTree = "<group>"; };
 		FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectNextNode.cpp; sourceTree = "<group>"; };
+		FF7F6A9525AFF28C00527216 /* buildBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildBinaryTree.h; sourceTree = "<group>"; };
+		FF7F6A9625AFF28C00527216 /* buildBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buildBinaryTree.cpp; sourceTree = "<group>"; };
 		FFA23ACF25AD9DCB00F1B45D /* binaryTree2List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binaryTree2List.h; sourceTree = "<group>"; };
 		FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryTree2List.cpp; sourceTree = "<group>"; };
 		FFA23AD325ADA7B500F1B45D /* BuildMaxBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildMaxBinaryTree.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				FFA23AD025AD9DCC00F1B45D /* binaryTree2List.cpp */,
 				FFA23AD325ADA7B500F1B45D /* BuildMaxBinaryTree.h */,
 				FFA23AD425ADA7B500F1B45D /* BuildMaxBinaryTree.cpp */,
+				FF7F6A9525AFF28C00527216 /* buildBinaryTree.h */,
+				FF7F6A9625AFF28C00527216 /* buildBinaryTree.cpp */,
 			);
 			path = binaryTree;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */,
 				FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */,
 				FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */,
+				FF7F6A9725AFF28C00527216 /* buildBinaryTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
