@@ -10,6 +10,7 @@
 #include "BinaryTree.h"
 #include "connectNextNode.h"
 #include "buildBinaryTree.h"
+#include "deleteTreeNode.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -27,9 +28,12 @@ int main(int argc, const char * argv[]) {
     //递归
     connectRecursion(root);
     
-    std::vector<int> preorder = {3,9,20,15,7};
-    std::vector<int> inorder = {9,3,15,20,7};
+    std::vector<int> preorder = {5,3,2,4,6,7};
+    std::vector<int> inorder = {2,3,4,5,6,7};
     TreeNode *root1 = buildTree1(preorder, inorder);
+    
+    
+    TreeNode *root2 = deleteNode(root1, 3);
     
     return 0;
 }
