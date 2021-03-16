@@ -8,6 +8,7 @@
 #include <iostream>
 #include "LinkList.h"
 #include "reverseBetween.h"
+#include "mergeSortedList.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -23,11 +24,24 @@ int main(int argc, const char * argv[]) {
 //    addNode(list, new ListNode(99));
 //    printList(list);
     
-    ListNode *reverse = reverseList(list);
-    printList(reverse);
+//    ListNode *reverse = reverseList(list);
+//    printList(reverse);
+//
+//    ListNode *reverseBetween = reverseListBetween(reverse, 1, 3);
+//    printList(reverseBetween);
     
-    ListNode *reverseBetween = reverseListBetween(reverse, 1, 3);
-    printList(reverseBetween);
+    
+    ListNode *l1 = new ListNode(1);
+    addNode(l1, new ListNode(2));
+    addNode(l1, new ListNode(4));
+    addNode(l1, new ListNode(10));
+    
+    ListNode *l2 = new ListNode(4);
+    addNode(l2, new ListNode(5));
+    addNode(l2, new ListNode(6));
+    addNode(l2, new ListNode(11));
+    ListNode *merge = mergeSortedList(l1, l2);
+    printList(merge);
     
     return 0;
 }

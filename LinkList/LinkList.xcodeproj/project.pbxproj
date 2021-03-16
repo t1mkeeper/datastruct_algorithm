@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */; };
 		FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DAD25A709E600DEA489 /* main.cpp */; };
 		FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC025A7327000DEA489 /* LinkList.cpp */; };
 		FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSortedList.h; sourceTree = "<group>"; };
+		FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeSortedList.cpp; sourceTree = "<group>"; };
 		FFBC2DAA25A709E600DEA489 /* LinkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkList; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBC2DAD25A709E600DEA489 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FFBC2DBF25A7327000DEA489 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				FFBC2DC025A7327000DEA489 /* LinkList.cpp */,
 				FFBC2DC525A7370800DEA489 /* reverseBetween.h */,
 				FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */,
+				FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */,
+				FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */,
+				FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */,
 				FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */,
 				FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */,
 			);
