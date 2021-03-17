@@ -11,36 +11,23 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     ListNode *dummy = new ListNode(-1);
     ListNode *p = dummy;
     bool addone = false;
-    while (l1 && l2) {
-        int sum = addone ? l1->val + l2->val + 1 : l1->val + l2->val;
-        int val = sum;
-        if (sum >= 10) {
-            val = sum - 10;
-        }
+    
+    while (l1 || l2) {
+        int v1 = l1 ? l1->val : 0;
+        int v2 = l2 ? l2->val : 0;
+        int sum = addone ? v1 + v2 + 1 : v1 + v2;
+        int val = sum >= 10 ? sum - 10 : sum;
+        
         ListNode *node = new ListNode(val);
         p->next = node;
         p = p->next;
         
-        l1 = l1->next;
-        l2 = l2->next;
+        l1 = l1 ? l1->next : l1;
+        l2 = l2 ? l2->next : l2;
         
         addone = sum >= 10 ? true : false;
     }
     
-    ListNode *p2 = l1 ? l1 : l2;
-    while(p2) {
-        int sum = addone ? p2->val + 1 : p2->val;
-        int val = sum;
-        if (sum >= 10) {
-            val -= 10;
-        }
-        ListNode *node = new ListNode(val);
-        p->next = node;
-        p = p->next;
-        
-        p2 = p2->next;
-        addone = sum >= 10 ? true : false;
-    }
     if (addone) {
         p->next = new ListNode(1);
     }
