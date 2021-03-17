@@ -9,6 +9,7 @@
 #include "LinkList.h"
 #include "reverseBetween.h"
 #include "mergeSortedList.h"
+#include "addTwoListNumber.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -31,17 +32,28 @@ int main(int argc, const char * argv[]) {
 //    printList(reverseBetween);
     
     
-    ListNode *l1 = new ListNode(1);
-    addNode(l1, new ListNode(2));
-    addNode(l1, new ListNode(4));
-    addNode(l1, new ListNode(10));
+//    ListNode *l1 = new ListNode(1);
+//    addNode(l1, new ListNode(2));
+//    addNode(l1, new ListNode(4));
+//    addNode(l1, new ListNode(10));
+//    ListNode *l2 = new ListNode(4);
+//    addNode(l2, new ListNode(5));
+//    addNode(l2, new ListNode(6));
+//    addNode(l2, new ListNode(11));
+//    ListNode *merge = mergeSortedList(l1, l2);
+//    printList(merge);
     
-    ListNode *l2 = new ListNode(4);
-    addNode(l2, new ListNode(5));
-    addNode(l2, new ListNode(6));
-    addNode(l2, new ListNode(11));
-    ListNode *merge = mergeSortedList(l1, l2);
-    printList(merge);
+//    ListNode *l1 = new ListNode(9);
+//    addNode(l1, new ListNode(9));
+//    ListNode *l2 = new ListNode(9);
+//    addNode(l2, new ListNode(9));
+//    addNode(l2, new ListNode(9));
+    ListNode *l1 = new ListNode(3);
+    addNode(l1, new ListNode(7));
+    ListNode *l2 = new ListNode(9);
+    addNode(l2, new ListNode(2));
+    ListNode *sum = addTwoNumbers(l1, l2);
+    printList(sum);
     
     return 0;
 }

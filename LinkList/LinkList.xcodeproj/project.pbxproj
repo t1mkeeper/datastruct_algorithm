@@ -11,6 +11,7 @@
 		FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DAD25A709E600DEA489 /* main.cpp */; };
 		FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC025A7327000DEA489 /* LinkList.cpp */; };
 		FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */; };
+		FFCFD0922602202D0039950D /* addTwoListNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFCFD0912602202D0039950D /* addTwoListNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		FFBC2DC025A7327000DEA489 /* LinkList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkList.cpp; sourceTree = "<group>"; };
 		FFBC2DC525A7370800DEA489 /* reverseBetween.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseBetween.h; sourceTree = "<group>"; };
 		FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseBetween.cpp; sourceTree = "<group>"; };
+		FFCFD0902602202D0039950D /* addTwoListNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addTwoListNumber.h; sourceTree = "<group>"; };
+		FFCFD0912602202D0039950D /* addTwoListNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addTwoListNumber.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */,
 				FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */,
 				FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */,
+				FFCFD0902602202D0039950D /* addTwoListNumber.h */,
+				FFCFD0912602202D0039950D /* addTwoListNumber.cpp */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */,
 				FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */,
 				FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */,
+				FFCFD0922602202D0039950D /* addTwoListNumber.cpp in Sources */,
 				FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
