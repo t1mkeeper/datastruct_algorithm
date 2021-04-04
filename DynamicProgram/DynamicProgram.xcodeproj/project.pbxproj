@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF2DE9232618422300727C09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF2DE9222618422300727C09 /* main.cpp */; };
 		FF2DE930261842DA00727C09 /* findLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF2DE92F261842DA00727C09 /* findLength.cpp */; };
+		FF2DE9352619686A00727C09 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF2DE9342619686A00727C09 /* maxSubArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		FF2DE9222618422300727C09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FF2DE92E261842DA00727C09 /* findLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findLength.h; sourceTree = "<group>"; };
 		FF2DE92F261842DA00727C09 /* findLength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findLength.cpp; sourceTree = "<group>"; };
+		FF2DE9332619686A00727C09 /* maxSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxSubArray.h; sourceTree = "<group>"; };
+		FF2DE9342619686A00727C09 /* maxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxSubArray.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				FF2DE9222618422300727C09 /* main.cpp */,
+				FF2DE9332619686A00727C09 /* maxSubArray.h */,
+				FF2DE9342619686A00727C09 /* maxSubArray.cpp */,
 				FF2DE92E261842DA00727C09 /* findLength.h */,
 				FF2DE92F261842DA00727C09 /* findLength.cpp */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2DE9352619686A00727C09 /* maxSubArray.cpp in Sources */,
 				FF2DE930261842DA00727C09 /* findLength.cpp in Sources */,
 				FF2DE9232618422300727C09 /* main.cpp in Sources */,
 			);
