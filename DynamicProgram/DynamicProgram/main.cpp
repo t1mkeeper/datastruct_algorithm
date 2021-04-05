@@ -18,8 +18,8 @@ int main(int argc, const char * argv[]) {
     int res = maxSubArray(nums);
     
     
-    vector<int> a = {0, 0, 0};
-    vector<int> b = {0, 0, 0};
+    vector<int> a = {1,2,3,2,1};
+    vector<int> b = {3,2,1,4,7};
     findLength(a, b);
 
     return 0;
