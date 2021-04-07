@@ -8,6 +8,7 @@
 #include <iostream>
 #include "maxSubArray.h"
 #include "findLength.h"
+#include "longestCommonSubsequence.h"
 
 using namespace std;
 int main(int argc, const char * argv[]) {
@@ -21,6 +22,11 @@ int main(int argc, const char * argv[]) {
     vector<int> a = {1,2,3,2,1};
     vector<int> b = {3,2,1,4,7};
     findLength(a, b);
-
+    
+    string s1 = "abcde";
+    string s2 = "ace";
+    int max = longestCommonSubsequence(s1, s2);
+    
+    
     return 0;
 }
