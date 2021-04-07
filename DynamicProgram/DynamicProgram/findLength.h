@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <vector>
 
+//最长公共子数组
 int findLength(std::vector<int> &a, std::vector<int> &b);
 
 #endif /* findLength_h */

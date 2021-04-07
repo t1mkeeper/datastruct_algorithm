@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <string>
 
+//最长公共子串
 int longestCommonSubsequence(std::string text1, std::string text2);
 
 #endif /* longestCommonSubsequence_h */

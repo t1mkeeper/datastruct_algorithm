@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <vector>
 
+//最大连续子数组和
 int maxSubArray(std::vector<int> &nums);
 
 #endif /* maxSubArray_h */
