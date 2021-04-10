@@ -10,6 +10,7 @@
 #include "reverseBetween.h"
 #include "mergeSortedList.h"
 #include "addTwoListNumber.h"
+#include "SortList.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -54,6 +55,18 @@ int main(int argc, const char * argv[]) {
     addNode(l2, new ListNode(2));
     ListNode *sum = addTwoNumbers(l1, l2);
     printList(sum);
+    
+    ListNode *sort = new ListNode(3);
+    addNode(sort, new ListNode(2));
+    addNode(sort, new ListNode(5));
+    addNode(sort, new ListNode(1));
+    addNode(sort, new ListNode(9));
+    addNode(sort, new ListNode(8));
+    addNode(sort, new ListNode(10));
+    addNode(sort, new ListNode(4));
+    
+//    ListNode *lll = createList(10);
+    printList(sortList(sort));
     
     return 0;
 }

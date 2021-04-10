@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */; };
+		FF9663C0262157A40018CC17 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF9663BF262157A40018CC17 /* SortList.cpp */; };
 		FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DAD25A709E600DEA489 /* main.cpp */; };
 		FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC025A7327000DEA489 /* LinkList.cpp */; };
 		FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFBC2DC625A7370800DEA489 /* reverseBetween.cpp */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSortedList.h; sourceTree = "<group>"; };
 		FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeSortedList.cpp; sourceTree = "<group>"; };
+		FF9663BE262157A40018CC17 /* SortList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortList.h; sourceTree = "<group>"; };
+		FF9663BF262157A40018CC17 /* SortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortList.cpp; sourceTree = "<group>"; };
 		FFBC2DAA25A709E600DEA489 /* LinkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkList; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBC2DAD25A709E600DEA489 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FFBC2DBF25A7327000DEA489 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */,
 				FFCFD0902602202D0039950D /* addTwoListNumber.h */,
 				FFCFD0912602202D0039950D /* addTwoListNumber.cpp */,
+				FF9663BE262157A40018CC17 /* SortList.h */,
+				FF9663BF262157A40018CC17 /* SortList.cpp */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */,
 				FFCFD0922602202D0039950D /* addTwoListNumber.cpp in Sources */,
 				FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */,
+				FF9663C0262157A40018CC17 /* SortList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
