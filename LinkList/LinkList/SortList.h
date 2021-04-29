@@ -13,4 +13,8 @@
 
 ListNode* sortList(ListNode* head);
 
+ListNode* partitionList(ListNode *head, int target);
+
+ListNode* partitionList2(ListNode *head, int target);
+
 #endif /* SortList_h */
