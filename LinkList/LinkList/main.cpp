@@ -68,5 +68,17 @@ int main(int argc, const char * argv[]) {
 //    ListNode *lll = createList(10);
     printList(sortList(sort));
     
+    ListNode *move = new ListNode(3);
+    addNode(move, new ListNode(10));
+    addNode(move, new ListNode(2));
+    addNode(move, new ListNode(5));
+    addNode(move, new ListNode(9));
+    addNode(move, new ListNode(1));
+    addNode(move, new ListNode(8));
+    addNode(move, new ListNode(4));
+    
+//    printList(moveList(move, 6));
+    printList(partitionList2(move, 6));
+    
     return 0;
 }
