@@ -9,27 +9,24 @@
 
 using namespace std;
 
-void pushToBottom(stack<int> &st, int value) {
-    int tmp;
+void pushToBottom(stack<int> &st, int bottomVal) {
     if(st.empty()) {
-        st.push(value);
+        st.push(bottomVal);
         return;
     }
-    
-    tmp = st.top();
+    int val = st.top();
     st.pop();
-    pushToBottom(st,value);
-    st.push(tmp);
+    pushToBottom(st, bottomVal);
+    st.push(val);
 }
 
 void reverseStack(std::stack<int> &st) {
     if (st.empty()) {
         return;
     }
-    
     int val = st.top();
     st.pop();
     reverseStack(st);
+    //val : 1-2-3-4-5
     pushToBottom(st, val);
-    
 }
