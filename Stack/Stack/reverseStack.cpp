@@ -9,14 +9,14 @@
 
 using namespace std;
 
-void pushToBottom(stack<int> &st, int bottomVal) {
+void push2Bottom(stack<int> &st, int bottomVal) {
     if(st.empty()) {
         st.push(bottomVal);
         return;
     }
     int val = st.top();
     st.pop();
-    pushToBottom(st, bottomVal);
+    push2Bottom(st, bottomVal);
     st.push(val);
 }
 
@@ -28,5 +28,26 @@ void reverseStack(std::stack<int> &st) {
     st.pop();
     reverseStack(st);
     //val : 1-2-3-4-5
-    pushToBottom(st, val);
+    push2Bottom(st, val);
+}
+
+void lz_Revers(stack<int> &stack, bool is_pop_all) {
+    int top = 0;
+    if(!is_pop_all) {
+        if(!stack.empty()) {
+            top = stack.top();
+            stack.pop();
+            lz_Revers(stack, false);
+        }
+        else {
+            is_pop_all = true;
+            stack.push(top);
+        }
+    }
+    else {
+        stack.push(top);
+        lz_Revers(stack, true);
+    }
+    
+
 }

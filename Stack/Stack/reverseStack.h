@@ -13,4 +13,6 @@
 
 void reverseStack(std::stack<int> &st);
 
+void lz_Revers(std::stack<int> &stack, bool is_pop_all);
+
 #endif /* reverseStack_h */

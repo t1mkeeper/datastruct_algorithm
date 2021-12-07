@@ -27,10 +27,13 @@ int main(int argc, const char * argv[]) {
 //        st.pop();
 //    }
     reverseStack(st);
+    
+//    lz_Revers(st, false);
+    
     while (!st.empty()) {
         printf("%d \n", st.top());
         st.pop();
     }
-    
+
     return 0;
 }
