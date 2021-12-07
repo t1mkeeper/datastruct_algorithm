@@ -10,7 +10,9 @@
 
 #include <stdio.h>
 #include <vector>
+#include <string>
 
 std::vector<int> topKFrequent(std::vector<int>& nums, int k);
+std::vector<std::string> topKFrequent2(std::vector<std::string>& nums, int k);
 
 #endif /* topK_h */

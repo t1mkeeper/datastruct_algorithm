@@ -16,5 +16,8 @@ int main(int argc, const char * argv[]) {
     vector<int> input = {1, 2, 3, 2, 2, 1, 5, 0, 4};
     vector<int> res = topKFrequent(input, 2);
     
+    vector<string> words = {"i", "love", "leetcode", "i", "love", "coding"};
+    vector<string> resWords = topKFrequent2(words, 2);
+    
     return 0;
 }
