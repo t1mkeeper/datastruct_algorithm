@@ -8,9 +8,11 @@
 #include <iostream>
 #include <vector>
 #include "BinaryTree.h"
+#include "LinkList.h"
 #include "connectNextNode.h"
 #include "buildBinaryTree.h"
 #include "deleteTreeNode.h"
+#include "sortedListToBST.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -34,6 +36,13 @@ int main(int argc, const char * argv[]) {
     
     
     TreeNode *root2 = deleteNode(root1, 3);
+    
+    //有序链表转搜索二叉树
+    ListNode *list = createList(10);
+    printList(list);
+    
+    TreeNode *bst = sortedListToBST(list);
+    printBinaryTree(bst, "%d", stdout);
     
     return 0;
 }

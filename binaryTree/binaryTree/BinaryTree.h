@@ -20,5 +20,5 @@ typedef struct TreeNode {
 
 void addLeftNode(TreeNode *n);
 void addRightNode(TreeNode *n);
-
+void printBinaryTree(TreeNode* root, const char *elem_fmt, FILE *fp);
 #endif /* BinaryTree_H */

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF19EE86275F20D60073E414 /* findDuplicateSubtrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE85275F20D60073E414 /* findDuplicateSubtrees.cpp */; };
+		FF19EE8A275F39160073E414 /* sortedListToBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE89275F39160073E414 /* sortedListToBST.cpp */; };
+		FF19EE8E275F39420073E414 /* LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE8C275F39420073E414 /* LinkList.cpp */; };
 		FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0325A9F85A00264C1A /* main.cpp */; };
 		FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */; };
 		FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */; };
@@ -29,6 +32,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF19EE84275F20D60073E414 /* findDuplicateSubtrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findDuplicateSubtrees.h; sourceTree = "<group>"; };
+		FF19EE85275F20D60073E414 /* findDuplicateSubtrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findDuplicateSubtrees.cpp; sourceTree = "<group>"; };
+		FF19EE88275F39160073E414 /* sortedListToBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sortedListToBST.h; sourceTree = "<group>"; };
+		FF19EE89275F39160073E414 /* sortedListToBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortedListToBST.cpp; sourceTree = "<group>"; };
+		FF19EE8C275F39420073E414 /* LinkList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkList.cpp; path = ../../LinkList/LinkList/LinkList.cpp; sourceTree = "<group>"; };
+		FF19EE8D275F39420073E414 /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkList.h; path = ../../LinkList/LinkList/LinkList.h; sourceTree = "<group>"; };
 		FF6B6D0025A9F85A00264C1A /* binaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = binaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6B6D0325A9F85A00264C1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FF6B6D0B25A9F87700264C1A /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
@@ -76,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				FF6B6D0325A9F85A00264C1A /* main.cpp */,
+				FF19EE8C275F39420073E414 /* LinkList.cpp */,
+				FF19EE8D275F39420073E414 /* LinkList.h */,
 				FF6B6D0B25A9F87700264C1A /* BinaryTree.h */,
 				FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */,
 				FF6B6D0F25AA1E0600264C1A /* connectNextNode.h */,
@@ -88,6 +99,10 @@
 				FF7F6A9625AFF28C00527216 /* buildBinaryTree.cpp */,
 				FF75F5B325C0703200496DD1 /* deleteTreeNode.h */,
 				FF75F5B425C0703200496DD1 /* deleteTreeNode.cpp */,
+				FF19EE84275F20D60073E414 /* findDuplicateSubtrees.h */,
+				FF19EE85275F20D60073E414 /* findDuplicateSubtrees.cpp */,
+				FF19EE88275F39160073E414 /* sortedListToBST.h */,
+				FF19EE89275F39160073E414 /* sortedListToBST.cpp */,
 			);
 			path = binaryTree;
 			sourceTree = "<group>";
@@ -151,10 +166,13 @@
 				FFA23AD525ADA7B500F1B45D /* BuildMaxBinaryTree.cpp in Sources */,
 				FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */,
 				FF75F5B525C0703200496DD1 /* deleteTreeNode.cpp in Sources */,
+				FF19EE86275F20D60073E414 /* findDuplicateSubtrees.cpp in Sources */,
+				FF19EE8A275F39160073E414 /* sortedListToBST.cpp in Sources */,
 				FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */,
 				FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */,
 				FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */,
 				FF7F6A9725AFF28C00527216 /* buildBinaryTree.cpp in Sources */,
+				FF19EE8E275F39420073E414 /* LinkList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +293,7 @@
 		FF6B6D0825A9F85A00264C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UAR37FAKPK;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -285,6 +304,7 @@
 		FF6B6D0925A9F85A00264C1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UAR37FAKPK;
 				ENABLE_HARDENED_RUNTIME = YES;
