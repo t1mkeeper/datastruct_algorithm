@@ -26,8 +26,8 @@ int main(int argc, const char * argv[]) {
 //    addNode(list, new ListNode(99));
 //    printList(list);
     
-//    ListNode *reverse = reverseList(list);
-//    printList(reverse);
+    ListNode *reverse = reverseList2(list);
+    printList(reverse);
 //
 //    ListNode *reverseBetween = reverseListBetween(reverse, 1, 3);
 //    printList(reverseBetween);

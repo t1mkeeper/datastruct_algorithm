@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF19EE6827574ECE0073E414 /* swapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE6727574ECE0073E414 /* swapNode.cpp */; };
 		FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */; };
 		FF9663C0262157A40018CC17 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF9663BF262157A40018CC17 /* SortList.cpp */; };
 		FFAA9E1B263BB0C300FD1B3A /* removeListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFAA9E1A263BB0C300FD1B3A /* removeListNode.cpp */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF19EE6627574ECE0073E414 /* swapNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swapNode.h; sourceTree = "<group>"; };
+		FF19EE6727574ECE0073E414 /* swapNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapNode.cpp; sourceTree = "<group>"; };
 		FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSortedList.h; sourceTree = "<group>"; };
 		FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeSortedList.cpp; sourceTree = "<group>"; };
 		FF9663BE262157A40018CC17 /* SortList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortList.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				FF9663BF262157A40018CC17 /* SortList.cpp */,
 				FFAA9E19263BB0C300FD1B3A /* removeListNode.h */,
 				FFAA9E1A263BB0C300FD1B3A /* removeListNode.cpp */,
+				FF19EE6627574ECE0073E414 /* swapNode.h */,
+				FF19EE6727574ECE0073E414 /* swapNode.cpp */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				FFCFD0922602202D0039950D /* addTwoListNumber.cpp in Sources */,
 				FFBC2DC725A7370800DEA489 /* reverseBetween.cpp in Sources */,
 				FFAA9E1B263BB0C300FD1B3A /* removeListNode.cpp in Sources */,
+				FF19EE6827574ECE0073E414 /* swapNode.cpp in Sources */,
 				FF9663C0262157A40018CC17 /* SortList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
