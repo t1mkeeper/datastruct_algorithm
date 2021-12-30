@@ -11,6 +11,10 @@
 #include "mergeSortedList.h"
 #include "addTwoListNumber.h"
 #include "SortList.h"
+#include "LRU.h"
+
+#include <unordered_map>
+#include <unordered_set>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -79,6 +83,10 @@ int main(int argc, const char * argv[]) {
     
 //    printList(moveList(move, 6));
     printList(partitionList2(move, 6));
+    
+    LRU *lru = new LRU();
+    std::vector<std::vector<int>> input = {{1,1,1},{1,2,2},{1,3,2},{2,1},{1,4,4},{2,2}};
+    lru->test(input, 3);
     
     return 0;
 }

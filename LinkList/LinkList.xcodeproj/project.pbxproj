@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF19EE6827574ECE0073E414 /* swapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE6727574ECE0073E414 /* swapNode.cpp */; };
+		FF19EF28277DB2710073E414 /* LRU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EF27277DB2710073E414 /* LRU.cpp */; };
 		FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */; };
 		FF9663C0262157A40018CC17 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF9663BF262157A40018CC17 /* SortList.cpp */; };
 		FFAA9E1B263BB0C300FD1B3A /* removeListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFAA9E1A263BB0C300FD1B3A /* removeListNode.cpp */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		FF19EE6627574ECE0073E414 /* swapNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swapNode.h; sourceTree = "<group>"; };
 		FF19EE6727574ECE0073E414 /* swapNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapNode.cpp; sourceTree = "<group>"; };
+		FF19EF26277DB2710073E414 /* LRU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRU.h; sourceTree = "<group>"; };
+		FF19EF27277DB2710073E414 /* LRU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LRU.cpp; sourceTree = "<group>"; };
 		FF75B0FE26010A8900ED4DF2 /* mergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSortedList.h; sourceTree = "<group>"; };
 		FF75B0FF26010A8900ED4DF2 /* mergeSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeSortedList.cpp; sourceTree = "<group>"; };
 		FF9663BE262157A40018CC17 /* SortList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortList.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				FFAA9E1A263BB0C300FD1B3A /* removeListNode.cpp */,
 				FF19EE6627574ECE0073E414 /* swapNode.h */,
 				FF19EE6727574ECE0073E414 /* swapNode.cpp */,
+				FF19EF26277DB2710073E414 /* LRU.h */,
+				FF19EF27277DB2710073E414 /* LRU.cpp */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF19EF28277DB2710073E414 /* LRU.cpp in Sources */,
 				FFBC2DAE25A709E600DEA489 /* main.cpp in Sources */,
 				FF75B10026010A8900ED4DF2 /* mergeSortedList.cpp in Sources */,
 				FFBC2DC125A7327000DEA489 /* LinkList.cpp in Sources */,
