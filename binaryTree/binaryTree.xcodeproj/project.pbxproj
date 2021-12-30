@@ -10,6 +10,7 @@
 		FF19EE86275F20D60073E414 /* findDuplicateSubtrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE85275F20D60073E414 /* findDuplicateSubtrees.cpp */; };
 		FF19EE8A275F39160073E414 /* sortedListToBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE89275F39160073E414 /* sortedListToBST.cpp */; };
 		FF19EE8E275F39420073E414 /* LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE8C275F39420073E414 /* LinkList.cpp */; };
+		FF19EE9D2761AB640073E414 /* maxPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF19EE9C2761AB640073E414 /* maxPathSum.cpp */; };
 		FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0325A9F85A00264C1A /* main.cpp */; };
 		FF6B6D0D25A9F87700264C1A /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D0C25A9F87700264C1A /* BinaryTree.cpp */; };
 		FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF6B6D1025AA1E0600264C1A /* connectNextNode.cpp */; };
@@ -38,6 +39,8 @@
 		FF19EE89275F39160073E414 /* sortedListToBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortedListToBST.cpp; sourceTree = "<group>"; };
 		FF19EE8C275F39420073E414 /* LinkList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkList.cpp; path = ../../LinkList/LinkList/LinkList.cpp; sourceTree = "<group>"; };
 		FF19EE8D275F39420073E414 /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkList.h; path = ../../LinkList/LinkList/LinkList.h; sourceTree = "<group>"; };
+		FF19EE9B2761AB640073E414 /* maxPathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxPathSum.h; sourceTree = "<group>"; };
+		FF19EE9C2761AB640073E414 /* maxPathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maxPathSum.cpp; sourceTree = "<group>"; };
 		FF6B6D0025A9F85A00264C1A /* binaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = binaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6B6D0325A9F85A00264C1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FF6B6D0B25A9F87700264C1A /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				FF19EE85275F20D60073E414 /* findDuplicateSubtrees.cpp */,
 				FF19EE88275F39160073E414 /* sortedListToBST.h */,
 				FF19EE89275F39160073E414 /* sortedListToBST.cpp */,
+				FF19EE9B2761AB640073E414 /* maxPathSum.h */,
+				FF19EE9C2761AB640073E414 /* maxPathSum.cpp */,
 			);
 			path = binaryTree;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				FF75F5B525C0703200496DD1 /* deleteTreeNode.cpp in Sources */,
 				FF19EE86275F20D60073E414 /* findDuplicateSubtrees.cpp in Sources */,
 				FF19EE8A275F39160073E414 /* sortedListToBST.cpp in Sources */,
+				FF19EE9D2761AB640073E414 /* maxPathSum.cpp in Sources */,
 				FF6B6D1125AA1E0600264C1A /* connectNextNode.cpp in Sources */,
 				FF6B6D0425A9F85A00264C1A /* main.cpp in Sources */,
 				FFA23AD125AD9DCC00F1B45D /* binaryTree2List.cpp in Sources */,

@@ -13,6 +13,7 @@
 #include "buildBinaryTree.h"
 #include "deleteTreeNode.h"
 #include "sortedListToBST.h"
+#include "maxPathSum.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -43,6 +44,9 @@ int main(int argc, const char * argv[]) {
     
     TreeNode *bst = sortedListToBST(list);
     printBinaryTree(bst, "%d", stdout);
+    
+    int max = maxPathSum(bst);
+    
     
     return 0;
 }
